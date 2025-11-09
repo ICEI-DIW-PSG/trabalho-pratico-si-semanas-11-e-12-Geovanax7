@@ -6,24 +6,25 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: GEOVANA DE SOUZA FERREIRA
+- Matricula: 1545034
+- Proposta de projeto escolhida:  Organizações e Equipes
+- Breve descrição sobre seu projeto: O projeto Geovana Makeup é um sistema de agendamento e exibição de serviços de maquiagem. Ele utiliza o JSON Server para simular um backend e o Fetch API no front-end, implementando um CRUD completo (Create, Read, Update, Delete).
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![<< COLOQUE A IMAGEM GET AQUI >>](public/imagens/get.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![<< COLOQUE A IMAGEM POST AQUI >>](public/imagens/post.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![<< COLOQUE A IMAGEM PUT AQUI >>](public/imagens/put.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![<< COLOQUE A IMAGEM DELETE AQUI >>](public/imagens/delete.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+<
+![front](public/imagens/front.png)
 
 ## **Orientações Gerais**
 

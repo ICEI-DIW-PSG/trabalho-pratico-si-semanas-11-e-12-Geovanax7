@@ -1,18 +1,23 @@
 {
   "usuarios": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
+      "id": 1,
+      "nome": "Admin",
+      "email": "admin@geovanamakeup.com"
+    }
+  ],
+  "servicos": [
+    { "id": 1, "nome": "Maquiagem Social", "descricao": "Ideal para eventos e festas.", "preco": 150 },
+    { "id": 2, "nome": "Editorial", "descricao": "Maquiagem artística para editoriais de moda e fotos.", "preco": 300 },
+    { "id": 3, "nome": "Noiva", "descricao": "Maquiagem completa com teste prévio.", "preco": 500 }
+  ],
+  "agendamentos": [
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 1,
+      "nome": "Maria Silva",
+      "servico": "Maquiagem Social",
+      "data": "2025-11-15",
+      "hora": "14:00"
     }
   ]
 }

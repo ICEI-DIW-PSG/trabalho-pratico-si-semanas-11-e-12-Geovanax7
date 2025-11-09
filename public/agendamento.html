@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento - Geovana Makeup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>
+    function enviarWhatsApp() {
+      const nome = document.getElementById("nome").value;
+      const data = document.getElementById("data").value;
+      const servico = new URLSearchParams(window.location.search).get("servico") || document.getElementById("servico").value;
+      const msg = `Olá! Gostaria de agendar o serviço *${servico}* para o dia *${data}*. Meu nome é ${nome}.`;
+      const numero = "5531995372658"; 
+      window.open(`https://wa.me/${numero}?text=${encodeURIComponent(msg)}`, "_blank");
+    }
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="imagens/1.png" alt="Logo Geovana Makeup">
+    <span>Geovana Makeup</span>
+  </div>
+</header>
+
+<section class="agendamento">
+  <h1>Agendar Atendimento</h1>
+  <p>Preencha os dados abaixo para confirmar seu agendamento:</p>
+
+  <div class="formulario">
+    <input type="text" id="nome" placeholder="Seu nome completo">
+    <input type="date" id="data">
+    <select id="servico">
+      <option>Maquiagem de Noiva</option>
+      <option>Maquiagem Social</option>
+      <option>Maquiagem Editorial</option>
+      <option>Maquiagem do Dia</option>
+      <option>Maquiagem da Noite</option>
+      <option>Maquiagem Artística</option>
+    </select>
+    <button onclick="enviarWhatsApp()" class="btn"><i class="fa-brands fa-whatsapp"></i> Confirmar pelo WhatsApp</button>
+  </div>
+
+  <a href="index.html" class="btn voltar"><i class="fa-solid fa-arrow-left"></i> Voltar</a>
+</section>
+
+<footer>
+  <p>© 2025 Geovana Makeup - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
+
